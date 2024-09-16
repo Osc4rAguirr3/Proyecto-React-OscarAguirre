@@ -1,0 +1,23 @@
+.cardProducto {
+    background-color: #c4c4c4;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+    margin: 20px;
+}
+
+.cardProducto:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.cardProducto img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #eaeaea;
+    border-radius: 10px 10px 0 0;
+}
